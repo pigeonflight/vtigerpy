@@ -1,7 +1,7 @@
 import urllib2
 import json
 import urllib
-import md5
+from hashlib import md5
 
 ### define the account specific information
 # find the Access Key under preferences > User Advanced Options
@@ -23,7 +23,7 @@ response = urllib2.urlopen(req).read()
 token = json.loads(response)['result']['token']
 
 # use the token to + accesskey to create the tokenized accessKey
-key = md5.md5(token + accessKey)
+key = md5(token + accessKey)
 tokenizedAccessKey = key.hexdigest()
 values['accessKey'] = tokenizedAccessKey
 
