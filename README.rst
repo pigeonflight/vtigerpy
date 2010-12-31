@@ -11,13 +11,16 @@ Working with vtigerauthdemo.py
 This is more of a code snippet to demonstrate what's possible. In order to test it you'll need to change some of the lines including.
 The values you'll need to change include the following:
 
-accessKey - In order to use log into your vtiger server 
+accessKey
+       In order to use log into your vtiger server 
        and go to 'preferences' > 'user advanced options'.
        This is used instead of a password.
 
-vtigerserver - the address of the vTiger server
+vtigerserver
+       The address of the vTiger server
        e.g. http://myserver.com/vtiger
 
-username - user name for authentication 
+username
+       User name for authentication 
        (more than likely 'admin').
 
