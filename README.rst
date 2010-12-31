@@ -16,6 +16,8 @@ accessKey - In order to use log into your vtiger server
        This is used instead of a password.
 
 vtigerserver - the address of the vTiger server
+       e.g. http://myserver.com/vtiger
 
-username - user name for authentication (more than likely 'admin').
+username - user name for authentication 
+       (more than likely 'admin').
 
