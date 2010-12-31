@@ -1,9 +1,7 @@
-This is a tiny folder for tinkering with the vTiger webservices API
-
-putting it out there for other persons to benefit
-
-So far I've created a file that demos how to interact with the webservices API
-using Python
+This repository represents my current tinkering with python/json to interact 
+with the vTiger webservices API, putting it out there for other persons to 
+benefit. So far I've created a file (called vtigerauthdemo.py) that demos 
+how to interact with the webservices API using Python
 
 Working with vtigerauthdemo.py
 -------------------------------
