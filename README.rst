@@ -21,4 +21,3 @@ vtigerserver
 username
        User name for authentication 
        (more than likely 'admin').
-
